@@ -41,7 +41,6 @@ const Bookings = () => {
 
         <div className="paddings flexCenter properties">
           {
-            // data.map((card, i)=> (<PropertyCard card={card} key={i}/>))
 
             data
               .filter((property) =>
